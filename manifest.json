@@ -1,13 +1,13 @@
 {
-    "name": "Dokuwiki",
-    "id": "dokuwiki",
+    "name": "D2okuwiki",
+    "id": "d2okuwiki",
     "description": {
         "en": "DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database"
     },
     "developer": {
-        "name": "loklin"
+        "name": "tecpi"
     },
-    "multi_instance": "false",
+    "multi_instance": "true",
     "arguments": {
         "install" : [
             {
@@ -22,8 +22,8 @@
                 "ask": {
                     "en": "Choose a path for DokuWiki"
                 },
-                "example": "/DokuWiki",
-                "default": "/DokuWiki"
+                "example": "/D2okuWiki",
+                "default": "/D2okuWiki"
             },
             {
                 "name": "is_public",

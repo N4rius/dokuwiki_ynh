@@ -2,5 +2,5 @@
 
 domain=$(sudo yunohost app setting dokuwiki domain)
 
-sudo rm -rf /var/www/dokuwiki
-sudo rm -f /etc/nginx/conf.d/$domain.d/dokuwiki.conf
+sudo rm -rf /var/www/d2okuwiki
+sudo rm -f /etc/nginx/conf.d/$domain.d/d2okuwiki.conf
